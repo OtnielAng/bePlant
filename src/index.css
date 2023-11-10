@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://db.onlinewebfonts.com/c/1d000a69cfacbcd37e0f9f91a5a1fa88?family=Animal+Planet+Sans+Extrabold');
+@import url('https://fonts.cdnfonts.com/css/animal-planet-sans');
+
+@font-face {
+  font-family: "Animal Planet Sans Extrabold";
+  src: url("https://db.onlinewebfonts.com/t/1d000a69cfacbcd37e0f9f91a5a1fa88.eot");
+  src: url("https://db.onlinewebfonts.com/t/1d000a69cfacbcd37e0f9f91a5a1fa88.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/1d000a69cfacbcd37e0f9f91a5a1fa88.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/1d000a69cfacbcd37e0f9f91a5a1fa88.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/1d000a69cfacbcd37e0f9f91a5a1fa88.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/1d000a69cfacbcd37e0f9f91a5a1fa88.svg#Animal Planet Sans Extrabold")format("svg");
+}
+
+body {
+  margin: 0;
+  font-family: 'Animal Planet Sans', sans-serif, "Animal Planet Sans Extrabold";
+
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
